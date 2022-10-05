@@ -26,7 +26,7 @@ func ticker(version string) {
 }
 
 func main() {
-	version := "6"
+	version := "7"
 
 	log.Println("Version:", version)
 	go ticker(version)
